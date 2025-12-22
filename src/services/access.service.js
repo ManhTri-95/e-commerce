@@ -4,9 +4,9 @@ const shopModel = require("../models/shop.model");
 const bcrypt = require('bcrypt');
 const crypto = require('node:crypto');
 const KeyTokenService = require('../services/keyToken.service');
-const { createTokenPair } = require('../auth/authUtils');
+const { createTokenPair, verifyJWT } = require('../auth/authUtils');
 const { getInfoData } = require('../utils');
-const { BadRequestError, ConflictRequestError, AuthFailureError } = require("../core/error.response");
+const { BadRequestError, AuthFailureError, ForbiddenError } = require("../core/error.response");
 
 
 // service
@@ -26,6 +26,50 @@ class AccessService {
    */
   static handleRefreshTokenUsed = async (refreshToken) => { 
     const foundToken = await KeyTokenService.findByRefreshTokenUsed(refreshToken);
+
+    // check xem token nay da duoc su dung chua
+    if (foundToken) { 
+      // decode xem may la thang nao
+      const { userId, email } = await verifyJWT(refreshToken, foundToken.privateKey);
+      console.log(`decode refresh token::`, userId, email);
+
+      // xóa tat ca token trong keyStore
+      await KeyTokenService.deleteKeyById(userId);
+      throw new ForbiddenError('Something wrong happend! Please re-login!');
+    }
+
+    // ok all good
+    const holderToken = await KeyTokenService.findByRefreshToken(refreshToken);
+    if(!holderToken) throw new NotFoundError('Shop not registered! 1');
+
+    // verify Token
+    const { userId, email } = await verifyJWT(refreshToken, holderToken.privateKey);
+    console.log('[2] --', { userId, email });
+    // check userId
+    const foundShop = await findByEmail({ email });
+    if (!foundShop) throw new NotFoundError('Shop not registered! 2');
+
+    // create 1 cặp token mới
+    const tokens = await createTokenPair( 
+      { userId, email }, 
+      holderToken.publicKey,
+      holderToken.privateKey
+    );
+
+    // update token vào db
+    await holderToken.updateOne({
+      $set: {
+        refreshToken: tokens.refreshToken,
+      },
+      $addToSet: {
+        refreshTokensUsed: refreshToken // đã được sử dụng để lấy token mới
+      }
+    });
+
+    return {
+      user: { userId, email },
+      tokens
+    }
   }
 
   /**
