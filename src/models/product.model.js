@@ -20,7 +20,7 @@ const productSchema = new Schema({
   product_attributes: { type: Schema.Types.Mixed, required: true },
 }, {
   timestamps: true,
-  collation: COLLECTION_NAME
+  collection: COLLECTION_NAME
 });
 
 //define the product type = clothing
@@ -30,9 +30,10 @@ const clothingSchema = new Schema({
     required: true
   },
   size: String,
-  material: String
+  material: String,
+  product_shop: { type: Schema.Types.ObjectId, ref: 'Shop'},
 }, {
-  collation: 'clothes',
+  collection: 'clothes',
   timestamps: true
 });
 
@@ -44,9 +45,10 @@ const electronicSchema = new Schema({
     required: true
   },
   model: String, 
-  color: String
+  color: String,
+  product_shop: { type: Schema.Types.ObjectId, ref: 'Shop'},
 }, {
-  collation: 'electronics',
+  collection: 'electronics',
   timestamps: true
 });
 

@@ -12,7 +12,7 @@ const HEADER = {
   API_KEY: 'x-api-key',
   CLIENT_ID: 'x-client-id',
   AUTHORIZATION: 'authorization',
-  REFRESH_TOKEN: 'refresh-token',
+  REFRESH_TOKEN: 'x-rtoken-id',
 }
 
 const createTokenPair = async (payload, publicKey, privateKey) => { 
@@ -71,8 +71,8 @@ const authentication = asyncHandler( async (req, res, next) => {
     const decodeUser = await JWT.verify(accessToken, keyStore.publicKey);
     console.log('decodeUser:', decodeUser);
     if (userId !== decodeUser.userId) throw new AuthFailureError('Invalid user!');
-    
     req.keyStore = keyStore;
+    req.user = decodeUser;
     return next();
   } catch (err) {
     throw err;
@@ -90,7 +90,6 @@ const authenticationV2 = asyncHandler( async (req, res, next) => {
    */
   const userId = req.headers[HEADER.CLIENT_ID];
   if (!userId) throw new AuthFailureError('Invalid request!');
-
   // 2
   const keyStore = await findByUserId(userId);
   if (!keyStore) throw new NotFoundError('Not found key store!');
@@ -100,7 +99,6 @@ const authenticationV2 = asyncHandler( async (req, res, next) => {
     try {
       const refreshToken = req.headers[HEADER.REFRESH_TOKEN];
       const decodeUser = await JWT.verify(refreshToken, keyStore.privateKey);
-      console.log('decodeUser:', decodeUser);
       if(userId !== decodeUser.userId) throw new AuthFailureError('Invalid user!');
       req.keyStore = keyStore;
       req.user = decodeUser
@@ -121,8 +119,8 @@ const authenticationV2 = asyncHandler( async (req, res, next) => {
     const decodeUser = await JWT.verify(accessToken, keyStore.publicKey);
     console.log('decodeUser:', decodeUser);
     if (userId !== decodeUser.userId) throw new AuthFailureError('Invalid user!');
-    
     req.keyStore = keyStore;
+    req.user = decodeUser;
     return next();
   } catch (err) {
     throw err;
@@ -132,5 +130,6 @@ const authenticationV2 = asyncHandler( async (req, res, next) => {
 module.exports = {
   createTokenPair,
   authentication,
+  authenticationV2,
   verifyJWT
 };
