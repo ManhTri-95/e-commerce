@@ -72,6 +72,45 @@ class AccessService {
     }
   }
 
+   static handleRefreshTokenUsedV2 = async ({ keyStore, user, refreshToken }) => { 
+    const { userId, email} = user;
+
+    if (keyStore.refreshTokensUsed.includes(refreshToken)) { 
+      await KeyTokenService.deleteKeyById(userId);
+      throw new ForbiddenError('Something wrong happend! Please re-login!');
+    }
+
+    if (keyStore.refreshToken !== refreshToken) { 
+      throw new AuthFailureError('Shop not registered!');
+    }
+
+    // check userId
+    const foundShop = await findByEmail({ email });
+    if (!foundShop) throw new NotFoundError('Shop not registered! 2');
+
+    // create 1 cặp token mới
+    const tokens = await createTokenPair( 
+      { userId, email }, 
+      keyStore.publicKey,
+      keyStore.privateKey
+    );
+
+    // update token vào db
+    await keyStore.updateOne({
+      $set: {
+        refreshToken: tokens.refreshToken,
+      },
+      $addToSet: {
+        refreshTokensUsed: refreshToken // đã được sử dụng để lấy token mới
+      }
+    });
+
+    return {
+      user,
+      tokens
+    }
+  }
+
   /**
    * 1 - check email in dbs
    * 2 - match password
