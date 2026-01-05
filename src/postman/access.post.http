@@ -4,10 +4,10 @@
 
 POST {{url_dev}}/shop/signup
 Content-Type: application/json
-x-api-key: cd64ec1ec9221ad11e0360967b0fb25631bae66dd54bb104892f5a753107bd66f63338d1c59d33efd661004cfd753cc0fbb014dd50a531e388b1dcd61a9da1c3
+x-api-key: 8657037a9e54c8e0b20e73b1e50a37d25a5349614eff5bf214cd5396dfef15c730b9c9ecfd5747e58f2e099e30e49175d5d4299dc89effa58c479bbaaaefa9b6
 
 {
-  "name": "Shop TIPS",
+  "name": "Shop Tri",
   "password": "abc123",
-  "email": "trirectelework@gmail.com"
+  "email": "trirectelework1@gmail.com"
 }

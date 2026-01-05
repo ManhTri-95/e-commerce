@@ -17,6 +17,10 @@ class ProductFactory {
       case 'Electronics': {
         return new Electronic(payload).createProduct();
       }
+
+      case 'Furniture': {
+        return new Furniture(payload).createProduct();
+      }
       default:
         throw new BadRequestError(`Invalid product type ${type}`);
     }
@@ -81,6 +85,22 @@ class Electronic extends Product {
     return newProduct;
   }  
 }
+
+class Furniture extends Product {
+
+  async createProduct() {
+    // create clothing attributes first
+    const newFurniture = await furniture.create({
+      ...this.product_attributes,
+      product_shop: this.product_shop
+    }); 
+    if (!newFurniture) throw new BadRequestError('Create furniture attributes error');
+    const newProduct = await super.createProduct(newElectronic._id);
+    if (!newProduct) throw new BadRequestError('Create new product error');
+    return newProduct;
+  }  
+}
+
 
 module.exports = {
   ProductFactory,
