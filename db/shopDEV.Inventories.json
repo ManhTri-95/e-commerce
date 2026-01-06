@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "694fa3d928546115b71e4fd4"
+  },
+  "inven_productId": {
+    "$oid": "694fa3d928546115b71e4fd0"
+  },
+  "inven_location": "unknown",
+  "inven_stock": 200,
+  "inven_shopId": {
+    "$oid": "6947c6e8f842b0d7b7b421a5"
+  },
+  "inven_reservations": [],
+  "createdAt": {
+    "$date": "2025-12-27T09:16:09.447Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-27T09:16:09.447Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6954f2779b09afb710b6fce2"
+  },
+  "inven_productId": {
+    "$oid": "6954f2779b09afb710b6fcde"
+  },
+  "inven_location": "unknown",
+  "inven_stock": 120,
+  "inven_shopId": {
+    "$oid": "6954d2145e4c37d8c3cc8e7c"
+  },
+  "inven_reservations": [],
+  "createdAt": {
+    "$date": "2025-12-31T09:52:55.336Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-31T09:52:55.336Z"
+  },
+  "__v": 0
+}]

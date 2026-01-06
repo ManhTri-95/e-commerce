@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "6953fe254f8767d4c941df26"
+  },
+  "cart_userId": 1001,
+  "cart_state": "ACTIVE",
+  "__v": 2,
+  "cart_count_products": 0,
+  "cart_products": [
+    {
+      "productId": "694d07c97f0ec8f10c3e0881",
+      "shopId": "6947c6e8f842b0d7b7b421a5",
+      "quantity": 3,
+      "name": "New Jeans Slim",
+      "price": 122
+    },
+    {
+      "productId": "6954f2779b09afb710b6fcde",
+      "shopId": "6954d2145e4c37d8c3cc8e7c",
+      "quantity": 1,
+      "name": "MacBook Air M2 13-inch",
+      "price": 28990000
+    }
+  ],
+  "createdOn": {
+    "$date": "2025-12-30T16:30:29.810Z"
+  },
+  "modifiedOn": {
+    "$date": "2025-12-31T10:30:25.041Z"
+  }
+}]

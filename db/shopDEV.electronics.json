@@ -1,0 +1,126 @@
+[{
+  "_id": {
+    "$oid": "694bc0ada8f287851a8f5202"
+  },
+  "manufacturer": "Iphone",
+  "model": "2025",
+  "color": "Red",
+  "product_shop": {
+    "$oid": "6947c6e8f842b0d7b7b421a5"
+  },
+  "createdAt": {
+    "$date": "2025-12-24T10:30:05.087Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-24T10:30:05.087Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694bc0f0a8f287851a8f5209"
+  },
+  "manufacturer": "Iphone",
+  "model": "2026",
+  "color": "Orange",
+  "product_shop": {
+    "$oid": "6947c6e8f842b0d7b7b421a5"
+  },
+  "createdAt": {
+    "$date": "2025-12-24T10:31:12.273Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-24T10:31:12.273Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694d4ed74416bf25ee274a8e"
+  },
+  "manufacturer": "Dell",
+  "model": "Inspiron 15 3520",
+  "color": "Gray",
+  "product_shop": {
+    "$oid": "6947c6e8f842b0d7b7b421a5"
+  },
+  "createdAt": {
+    "$date": "2025-12-25T14:48:55.840Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-25T14:48:55.840Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694fa37f884eae44d5c67427"
+  },
+  "manufacturer": "HP",
+  "model": "Pavilion 14-dv2030TU",
+  "color": "Silver",
+  "product_shop": {
+    "$oid": "6947c6e8f842b0d7b7b421a5"
+  },
+  "createdAt": {
+    "$date": "2025-12-27T09:14:39.832Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-27T09:14:39.832Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694fa3b90c91051855a8d967"
+  },
+  "manufacturer": "HP",
+  "model": "Pavilion 14-dv2030TU",
+  "color": "Silver",
+  "product_shop": {
+    "$oid": "6947c6e8f842b0d7b7b421a5"
+  },
+  "createdAt": {
+    "$date": "2025-12-27T09:15:37.219Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-27T09:15:37.219Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694fa3d928546115b71e4fd0"
+  },
+  "manufacturer": "HP",
+  "model": "Pavilion 14-dv2030TU",
+  "color": "Silver",
+  "product_shop": {
+    "$oid": "6947c6e8f842b0d7b7b421a5"
+  },
+  "createdAt": {
+    "$date": "2025-12-27T09:16:09.437Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-27T09:16:09.437Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6954f2779b09afb710b6fcde"
+  },
+  "manufacturer": "Apple",
+  "model": "MacBook Air M2 2022",
+  "color": "Midnight",
+  "product_shop": {
+    "$oid": "6954d2145e4c37d8c3cc8e7c"
+  },
+  "createdAt": {
+    "$date": "2025-12-31T09:52:55.319Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-31T09:52:55.319Z"
+  },
+  "__v": 0
+}]

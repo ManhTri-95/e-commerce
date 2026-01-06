@@ -1,0 +1,216 @@
+[{
+  "_id": {
+    "$oid": "694bbe5c883679661aeae03f"
+  },
+  "brand": "Levis",
+  "size": "L",
+  "material": "Denim",
+  "product_shop": {
+    "$oid": "6947c6e8f842b0d7b7b421a5"
+  },
+  "createdAt": {
+    "$date": "2025-12-24T10:20:12.408Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-24T10:20:12.408Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694d0692c0619dede712c235"
+  },
+  "brand": "Levis",
+  "size": "XL",
+  "material": "Denim",
+  "product_shop": {
+    "$oid": "6947c6e8f842b0d7b7b421a5"
+  },
+  "createdAt": {
+    "$date": "2025-12-25T09:40:34.077Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-25T09:40:34.077Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694d06aec0619dede712c23b"
+  },
+  "brand": "Levis",
+  "size": "XL",
+  "material": "Denim",
+  "product_shop": {
+    "$oid": "6947c6e8f842b0d7b7b421a5"
+  },
+  "createdAt": {
+    "$date": "2025-12-25T09:41:02.485Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-25T09:41:02.485Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694d06afc0619dede712c241"
+  },
+  "brand": "Levis",
+  "size": "XL",
+  "material": "Denim",
+  "product_shop": {
+    "$oid": "6947c6e8f842b0d7b7b421a5"
+  },
+  "createdAt": {
+    "$date": "2025-12-25T09:41:03.614Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-25T09:41:03.614Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694d06d8c0619dede712c247"
+  },
+  "brand": "Levis",
+  "size": "XL",
+  "material": "Denim",
+  "product_shop": {
+    "$oid": "6947c6e8f842b0d7b7b421a5"
+  },
+  "createdAt": {
+    "$date": "2025-12-25T09:41:44.317Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-25T09:41:44.317Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694d06d9c0619dede712c24d"
+  },
+  "brand": "Levis",
+  "size": "XL",
+  "material": "Denim",
+  "product_shop": {
+    "$oid": "6947c6e8f842b0d7b7b421a5"
+  },
+  "createdAt": {
+    "$date": "2025-12-25T09:41:45.580Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-25T09:41:45.580Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694d06e8c0619dede712c256"
+  },
+  "brand": "Levis",
+  "size": "XL",
+  "material": "Denim",
+  "product_shop": {
+    "$oid": "6947c6e8f842b0d7b7b421a5"
+  },
+  "createdAt": {
+    "$date": "2025-12-25T09:42:00.457Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-25T09:42:00.457Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694d06e9c0619dede712c25c"
+  },
+  "brand": "Levis",
+  "size": "XL",
+  "material": "Denim",
+  "product_shop": {
+    "$oid": "6947c6e8f842b0d7b7b421a5"
+  },
+  "createdAt": {
+    "$date": "2025-12-25T09:42:01.574Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-25T09:42:01.574Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694d0704c0619dede712c262"
+  },
+  "brand": "Levis",
+  "size": "XL",
+  "material": "Denim",
+  "product_shop": {
+    "$oid": "6947c6e8f842b0d7b7b421a5"
+  },
+  "createdAt": {
+    "$date": "2025-12-25T09:42:28.513Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-25T09:42:28.513Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694d0705c0619dede712c268"
+  },
+  "brand": "Levis",
+  "size": "XL",
+  "material": "Denim",
+  "product_shop": {
+    "$oid": "6947c6e8f842b0d7b7b421a5"
+  },
+  "createdAt": {
+    "$date": "2025-12-25T09:42:29.857Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-25T09:42:29.857Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694d0764a95636a04b37b3cd"
+  },
+  "brand": "Levis",
+  "size": "XL",
+  "material": "Denim",
+  "product_shop": {
+    "$oid": "6947c6e8f842b0d7b7b421a5"
+  },
+  "createdAt": {
+    "$date": "2025-12-25T09:44:04.579Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-25T09:44:04.579Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694d07c97f0ec8f10c3e0881"
+  },
+  "brand": "Levis",
+  "size": "L",
+  "material": "Jeans",
+  "product_shop": {
+    "$oid": "6947c6e8f842b0d7b7b421a5"
+  },
+  "createdAt": {
+    "$date": "2025-12-25T09:45:45.828Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-27T08:32:32.141Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "695b9705114f785883824969"
+  },
+  "discount_name": "Shop02 2025",
+  "discount_description": "Big sale for summer season",
+  "discount_type": "fixed_amount",
+  "discount_value": 500000,
+  "discount_code": "DEC_SHOP_02_2025",
+  "discount_start_date": {
+    "$date": "2026-01-01T00:00:00.000Z"
+  },
+  "discount_end_date": {
+    "$date": "2026-06-30T23:59:59.999Z"
+  },
+  "discount_max_uses": 1000,
+  "discount_uses_count": 0,
+  "discount_users_used": [],
+  "discount_max_uses_per_user": 1,
+  "discount_min_order_value": 500000,
+  "discount_shopId": {
+    "$oid": "6954d2145e4c37d8c3cc8e7c"
+  },
+  "discount_is_active": true,
+  "discount_applies_to": "specific",
+  "discount_product_ids": [
+    "694d07c97f0ec8f10c3e0881"
+  ],
+  "createdAt": {
+    "$date": "2026-01-05T10:48:37.791Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-05T10:48:37.791Z"
+  },
+  "__v": 0
+}]

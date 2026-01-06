@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "6947c6e8f842b0d7b7b421a5"
+  },
+  "name": "Shop TIPS",
+  "email": "trirectelework@gmail.com",
+  "password": "$2b$10$t2JPGENPdoH.c9VNfPG/uOMVN3rnNfODbwbiJLJ1eVhEFRCiG.ePG",
+  "status": "inactive",
+  "verify": false,
+  "roles": [
+    "SHOP"
+  ],
+  "createdAt": {
+    "$date": "2025-12-21T10:07:36.036Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-21T10:07:36.036Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6954d2145e4c37d8c3cc8e7c"
+  },
+  "name": "Shop Tri",
+  "email": "trirectelework1@gmail.com",
+  "password": "$2b$10$6VpIEVQfUF/5kM64d6g1qOofRIjMQeAhjCxQ5QoKTCvTk6c8tNRpK",
+  "status": "inactive",
+  "verify": false,
+  "roles": [
+    "SHOP"
+  ],
+  "createdAt": {
+    "$date": "2025-12-31T07:34:44.573Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-31T07:34:44.573Z"
+  },
+  "__v": 0
+}]

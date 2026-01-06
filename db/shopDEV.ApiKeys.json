@@ -1,0 +1,51 @@
+[{
+  "_id": {
+    "$oid": "69416e9c84510f3daab10a59"
+  },
+  "key": "cd64ec1ec9221ad11e0360967b0fb25631bae66dd54bb104892f5a753107bd66f63338d1c59d33efd661004cfd753cc0fbb014dd50a531e388b1dcd61a9da1c3",
+  "status": true,
+  "permissions": [
+    "0000"
+  ],
+  "createdAt": {
+    "$date": "2025-12-16T14:37:16.362Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-16T14:37:16.362Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69416ea584510f3daab10a5c"
+  },
+  "key": "8657037a9e54c8e0b20e73b1e50a37d25a5349614eff5bf214cd5396dfef15c730b9c9ecfd5747e58f2e099e30e49175d5d4299dc89effa58c479bbaaaefa9b6",
+  "status": true,
+  "permissions": [
+    "0000"
+  ],
+  "createdAt": {
+    "$date": "2025-12-16T14:37:25.103Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-16T14:37:25.103Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69416eb284510f3daab10a5f"
+  },
+  "key": "6aa8c170c3aee822c9c47d0925f4db1486e625694e6f51da3b18803dc8e3e194b2ad2b49919da5d95bc236fe083aca9fb4e1205b6188a1244355a87d6dc84e2c",
+  "status": true,
+  "permissions": [
+    "0000"
+  ],
+  "createdAt": {
+    "$date": "2025-12-16T14:37:38.383Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-16T14:37:38.383Z"
+  },
+  "__v": 0
+}]

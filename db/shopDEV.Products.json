@@ -1,0 +1,186 @@
+[{
+  "_id": {
+    "$oid": "694d07c97f0ec8f10c3e0881"
+  },
+  "product_name": "New Jeans Slim",
+  "product_thumb": "https://cdn.example.com/products/jean-01.png",
+  "product_description": "Quần jean nam form slimfit, chất liệu denim cao cấp, co giãn nhẹ.",
+  "product_price": 28990000,
+  "product_quantity": 120,
+  "product_type": "Clothing",
+  "product_shop": {
+    "$oid": "6947c6e8f842b0d7b7b421a5"
+  },
+  "product_attributes": {
+    "brand": "Levis",
+    "size": "L",
+    "material": "Jeans"
+  },
+  "product_ratingsAverage": 4.5,
+  "product_variations": [],
+  "isDraft": false,
+  "isPublished": true,
+  "createdAt": {
+    "$date": "2025-12-25T09:45:45.835Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-27T08:32:32.142Z"
+  },
+  "product_slug": "quan-jean-cao-cap",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694d4ed74416bf25ee274a8e"
+  },
+  "product_name": "Laptop Dell Inspiron 15",
+  "product_thumb": "https://cdn.example.com/products/dell-inspiron-15.png",
+  "product_description": "Laptop Dell Inspiron 15, CPU Intel Core i5, RAM 16GB, SSD 512GB, phù hợp học tập và làm việc.",
+  "product_price": 18990000,
+  "product_quantity": 25,
+  "product_type": "Electronic",
+  "product_shop": {
+    "$oid": "6947c6e8f842b0d7b7b421a5"
+  },
+  "product_attributes": {
+    "manufacturer": "Dell",
+    "model": "Inspiron 15 3520",
+    "color": "Gray"
+  },
+  "product_ratingsAverage": 4.5,
+  "product_variations": [],
+  "isDraft": false,
+  "isPublished": true,
+  "createdAt": {
+    "$date": "2025-12-25T14:48:55.845Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-26T08:12:37.901Z"
+  },
+  "product_slug": "laptop-dell-inspiron-15",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694fa37f884eae44d5c67427"
+  },
+  "product_name": "Laptop HP Pavilion 14",
+  "product_thumb": "https://cdn.example.com/products/hp-pavilion-14.png",
+  "product_description": "Laptop HP Pavilion 14, CPU Intel Core i7, RAM 16GB, SSD 1TB, thiết kế mỏng nhẹ, phù hợp lập trình và văn phòng.",
+  "product_price": 22490000,
+  "product_quantity": 200,
+  "product_type": "Electronic",
+  "product_shop": {
+    "$oid": "6947c6e8f842b0d7b7b421a5"
+  },
+  "product_attributes": {
+    "manufacturer": "HP",
+    "model": "Pavilion 14-dv2030TU",
+    "color": "Silver"
+  },
+  "product_ratingsAverage": 4.5,
+  "product_variations": [],
+  "isDraft": true,
+  "isPublished": false,
+  "createdAt": {
+    "$date": "2025-12-27T09:14:39.841Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-27T09:14:39.841Z"
+  },
+  "product_slug": "laptop-hp-pavilion-14",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694fa3b90c91051855a8d967"
+  },
+  "product_name": "Laptop HP Pavilion 14",
+  "product_thumb": "https://cdn.example.com/products/hp-pavilion-14.png",
+  "product_description": "Laptop HP Pavilion 14, CPU Intel Core i7, RAM 16GB, SSD 1TB, thiết kế mỏng nhẹ, phù hợp lập trình và văn phòng.",
+  "product_price": 22490000,
+  "product_quantity": 200,
+  "product_type": "Electronic",
+  "product_shop": {
+    "$oid": "6947c6e8f842b0d7b7b421a5"
+  },
+  "product_attributes": {
+    "manufacturer": "HP",
+    "model": "Pavilion 14-dv2030TU",
+    "color": "Silver"
+  },
+  "product_ratingsAverage": 4.5,
+  "product_variations": [],
+  "isDraft": true,
+  "isPublished": false,
+  "createdAt": {
+    "$date": "2025-12-27T09:15:37.226Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-27T09:15:37.226Z"
+  },
+  "product_slug": "laptop-hp-pavilion-14",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694fa3d928546115b71e4fd0"
+  },
+  "product_name": "Laptop HP Pavilion 14",
+  "product_thumb": "https://cdn.example.com/products/hp-pavilion-14.png",
+  "product_description": "Laptop HP Pavilion 14, CPU Intel Core i7, RAM 16GB, SSD 1TB, thiết kế mỏng nhẹ, phù hợp lập trình và văn phòng.",
+  "product_price": 22490000,
+  "product_quantity": 200,
+  "product_type": "Electronic",
+  "product_shop": {
+    "$oid": "6947c6e8f842b0d7b7b421a5"
+  },
+  "product_attributes": {
+    "manufacturer": "HP",
+    "model": "Pavilion 14-dv2030TU",
+    "color": "Silver"
+  },
+  "product_ratingsAverage": 4.5,
+  "product_variations": [],
+  "isDraft": true,
+  "isPublished": false,
+  "createdAt": {
+    "$date": "2025-12-27T09:16:09.444Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-27T09:16:09.444Z"
+  },
+  "product_slug": "laptop-hp-pavilion-14",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6954f2779b09afb710b6fcde"
+  },
+  "product_name": "MacBook Air M2 13-inch",
+  "product_thumb": "https://cdn.example.com/products/macbook-air-m2.png",
+  "product_description": "MacBook Air M2 13-inch với chip Apple M2, RAM 16GB, SSD 512GB, hiệu năng cao, pin lâu, phù hợp lập trình và sáng tạo nội dung.",
+  "product_price": 28990000,
+  "product_quantity": 120,
+  "product_type": "Electronic",
+  "product_shop": {
+    "$oid": "6954d2145e4c37d8c3cc8e7c"
+  },
+  "product_attributes": {
+    "manufacturer": "Apple",
+    "model": "MacBook Air M2 2022",
+    "color": "Midnight"
+  },
+  "product_ratingsAverage": 4.5,
+  "product_variations": [],
+  "isDraft": true,
+  "isPublished": false,
+  "createdAt": {
+    "$date": "2025-12-31T09:52:55.327Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-31T09:52:55.327Z"
+  },
+  "product_slug": "macbook-air-m2-13-inch",
+  "__v": 0
+}]
